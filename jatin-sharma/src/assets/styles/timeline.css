@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 20px;
+}
+
+/* Vertical Timeline Section */
+.vertical-timeline-section {
+  padding: 10px 0;
+}
+
+.row {
+  margin-bottom: 10px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.col {
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 36px;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+.section-subheading {
+  color: #ecf0f1;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 100px;
+}
+
+.vertical-timeline-custom-line {
+  position: relative;
+  margin-top: 80px;
+}
+
+.vertical-timeline-element {
+  margin: 0;
+}
+
+.vertical-timeline-element-content {
+  height: 350px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 20px;
+  background: #050816;
+  color: #ffffff;
+  position: relative;
+  border-bottom: 4px solid #ecf0f1;
+}
+
+.vertical-timeline-element-date {
+  font-size: 1.1rem;
+  color: #a9a5c2;
+}
+
+.vertical-timeline-element-title {
+  font-size: 24px;
+  color: #ecf0f1;
+  margin-bottom: 10px;
+}
+
+.vertical-timeline-element-subtitle {
+  font-size: 18px;
+  color: #8e44ad;
+  margin-bottom: 20px;
+}
+
+.vertical-timeline-element-content p {
+  color: #34495e;
+}
+
+.vertical-timeline-element-icon {
+  background: #3498db;
+}
+
+.vertical-timeline-element-icon i {
+  color: #ecf0f1;
+}
+
+.vertical-timeline-element-icon i::before {
+  border-color: transparent transparent transparent #3498db;
+}

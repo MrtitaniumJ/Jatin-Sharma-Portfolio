@@ -1,0 +1,130 @@
+.contact-section {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  background-color: #040008;
+}
+
+#backgroundCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+/* Left Side Styles */
+.contact-card {
+  width: 500px;
+  background-color: #050816;
+  color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.card-heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.subheading {
+  font-size: 20px;
+  color: #ecf0f1;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 15px;
+  color: #ecf0f1;
+}
+
+span {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: calc(100% - 24px);
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 5px;
+  /* border: 1px solid #0dbfa8; */
+  border: none;
+  background-color: #0a0e20;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #babdbd;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #040008;
+}
+
+button {
+  width: 80px;
+  height: 40px;
+  margin-top: 10px;
+  background-color: #0a0e20;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Right Side Styles */
+.illustration {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  overflow: hidden;
+  height: 650px;
+  width: 650px;
+  z-index: 2;
+}
+
+.earth-canvas {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  max-height: 600px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .illustration {
+    width: 100%;
+    margin-top: 30px;
+  }
+}

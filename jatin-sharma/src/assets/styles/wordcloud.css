@@ -1,0 +1,28 @@
+.wordcloud-section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.section-heading {
+  color: #3498db;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px; 
+}
+
+.wordcloud-container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.react-d3-cloud__word {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+  margin: 5px;
+  font-family: 'Arial', sans-serif;
+}
+
+.react-d3-cloud__word:hover {
+  transform: scale(1.2);
+}

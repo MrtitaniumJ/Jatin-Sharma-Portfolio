@@ -1,0 +1,77 @@
+/* Color Theme */
+:root {
+    --primary-bg-color: #1a1a1a; /* Dark purple background color */
+    --text-color-light: #ecf0f1; /* Light text color */
+    --text-color-medium: #bdc3c7; /* Medium text color */
+    --text-color-dark: #34495e; /* Dark text color */
+    --link-color: #3498db; /* Blue link color */
+    --link-hover-color: #2980b9; /* Darker blue on hover */
+    --accent-color: #e74c3c; /* Red accent color */
+}
+
+/* Apply Color Theme to Elements */
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--text-color-light);
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+}
+
+/* Additional Element Styles (Adjust as needed) */
+/* ... */
+
+/* Navbar Styles */
+.navbar {
+    background-color: transparent;
+    /* ... */
+}
+
+/* Hero Section Styles */
+.hero-section {
+    background-color: var(--primary-bg-color);
+    color: var(--text-color-light);
+    /* ... */
+}
+
+/* Introduction Section Styles */
+.introduction-section {
+    /* ... */
+}
+
+/* Vertical Timeline Styles */
+.vertical-timeline-section {
+    /* ... */
+}
+
+/* Word Cloud Styles */
+.wordcloud-section {
+    /* ... */
+}
+
+/* Projects Section Styles */
+.projects-section {
+    background-color: var(--primary-bg-color);
+    color: var(--text-color-light);
+    /* ... */
+}
+
+/* Contact Section Styles */
+.contact-section {
+    /* ... */
+}
+
+/* Footer Styles */
+.footer-section {
+    background-color: var(--primary-bg-color);
+    color: var(--text-color-light);
+    /* ... */
+}
