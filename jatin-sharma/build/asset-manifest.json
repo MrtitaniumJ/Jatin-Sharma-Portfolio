@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8e2bb52e.css",
+    "main.js": "/static/js/main.fd59a0d9.js",
+    "static/js/787.d0b0b57c.chunk.js": "/static/js/787.d0b0b57c.chunk.js",
+    "static/media/car-game.png": "/static/media/car-game.ea5323cc4c0406e7dc3a.png",
+    "static/media/heroBackground.png": "/static/media/heroBackground.a77698c029c9debfe235.png",
+    "static/media/jatin-profile-picture-crop1.png": "/static/media/jatin-profile-picture-crop1.b56c6a04dad6010824ef.png",
+    "static/media/Amazon-Clone.png": "/static/media/Amazon-Clone.4e0551ac802d6ea6b29c.png",
+    "static/media/Igoko-website.png": "/static/media/Igoko-website.299df0ffcf6da330f984.png",
+    "static/media/hacktoberfest.png": "/static/media/hacktoberfest.3dff8c515760b853bf93.png",
+    "static/media/Inventory-management.png": "/static/media/Inventory-management.ea354bbe85dd63c7ca41.png",
+    "static/media/Suchna.jpg": "/static/media/Suchna.74536caff460ab92c08a.jpg",
+    "static/media/github-icon.png": "/static/media/github-icon.025de1923aa7a0141209.png",
+    "static/media/android-chrome-512x512.png": "/static/media/android-chrome-512x512.768b16507d2dfb74946d.png",
+    "static/media/whatsapp-clone.jfif": "/static/media/whatsapp-clone.f4256f16fe278807424a.jfif",
+    "static/media/Codebusters-logo.jfif": "/static/media/Codebusters-logo.8d4e342159e0e411ddd0.jfif",
+    "static/media/iga_solutions_private_limited_logo.jfif": "/static/media/iga_solutions_private_limited_logo.b149ea4c4f73558e6320.jfif",
+    "index.html": "/index.html",
+    "main.8e2bb52e.css.map": "/static/css/main.8e2bb52e.css.map",
+    "main.fd59a0d9.js.map": "/static/js/main.fd59a0d9.js.map",
+    "787.d0b0b57c.chunk.js.map": "/static/js/787.d0b0b57c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e2bb52e.css",
+    "static/js/main.fd59a0d9.js"
+  ]
+}
