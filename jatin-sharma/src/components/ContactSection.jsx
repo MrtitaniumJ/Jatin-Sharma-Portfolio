@@ -21,7 +21,7 @@ const ContactSection = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:3001/send-email', formData);
+      await axios.post('https://jatin-sharma-portfolio-backend.onrender.com/send-email', formData);
       alert('Email sent successfully');
       setFormData({ name: '', email: '', message: '' });
     } catch (error) {
