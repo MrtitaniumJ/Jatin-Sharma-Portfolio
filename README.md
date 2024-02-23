@@ -92,4 +92,4 @@ Copy code
 
 ## Contact
 
-If you have any questions, feedback, or just want to say hi, feel free to reach out to me at
+If you have any questions, feedback, or just want to say hi, feel free to reach out to me at jkjatinsharma72@gmail.com
